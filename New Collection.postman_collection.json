@@ -1,0 +1,231 @@
+{
+    "info": {
+        "_postman_id": "ddbf63dd-f744-40ff-93f5-2706ee2b306f",
+        "name": "New Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "22898040"
+    },
+    "item": [
+        {
+            "name": "http://localhost:8080/juegos",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/6666666",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/6666666",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "6666666"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/639f21f8faa9d271eb59db33",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/637df1f6b8ec12575ce42ae3",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "637df1f6b8ec12575ce42ae3"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"nombre\" : \"Arzopa\",\r\n    \"descripcion\" :\"Arzopa descripcion\",\r\n    \"edad\" : 66,\r\n    \"jugadores\" : 100,\r\n    \"tipo\" : \"rol\",\r\n    \"imagen\" : \"imageninventada.jpg\",\r\n    \"precio\" : 6.99\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8080/juegos",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"nombre\" : \"Arzopa\",\r\n    \"descripcion\" :\"Arzopa descripcion\",\r\n    \"edad\" : 66,\r\n    \"tipo\" : \"rol\",\r\n    \"imagen\" : \"imageninventada.jpg\",\r\n    \"precio\" : 6.99\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8080/juegos",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/639f21f8faa9d271eb59db33",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"nombre\": \"nombreActualizado\",\r\n    \"descripcion\" :\"descripcion Actualizada\",\r\n    \"precio\": 0\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8080/juegos/637e2d8219a8fb99012fb93e",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "637e2d8219a8fb99012fb93e"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/777777",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/777777",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "777777"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/ediciones/637e2ea2e17664ad204ca6c7",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/ediciones/637e2ea2e17664ad204ca6c7",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "ediciones", "637e2ea2e17664ad204ca6c7"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/ediciones/639f21f8faa9d271eb59db31",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"edicion\": \"modificando solamente la edicion\",\r\n    \"anyo\": 2011\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8080/juegos/ediciones/637e2ea2e17664ad204ca6c7",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "ediciones", "637e2ea2e17664ad204ca6c7"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/639f22f335bf6cac9e3f383b",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/637e2ea2e17664ad204ca6c7",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "637e2ea2e17664ad204ca6c7"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/637e2ea2e17664ad204ca6c7",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/637e2ea2e17664ad204ca6c7",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": ["juegos", "637e2ea2e17664ad204ca6c7"]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/juegos/ediciones/639f21f8faa9d271eb59db31/639f21f8faa9d271eb59db32",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/juegos/ediciones/637e32f2b9c9a5ee941e6353/637e3307b9c9a5ee941e6355",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8080",
+                    "path": [
+                        "juegos",
+                        "ediciones",
+                        "637e32f2b9c9a5ee941e6353",
+                        "637e3307b9c9a5ee941e6355"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
